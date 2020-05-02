@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  color: white;
+}
+
+.container {
+  height: 69vh;
+  background: url(/city-lit-up-at-night-316902.jpg);
+  background-position: center;
+  background-size: cover;
+}
+nav {
+  padding: 10px 30px 10px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+nav .social {
+  display: flex;
+}
+.burger {
+  margin-top: 5px;
+  height: 2px;
+  width: 15px;
+  background-color: white;
+  cursor: pointer;
+}
+.logo img {
+  height: 50px;
+}
+
+.nav-text {
+  flex-direction: column;
+  padding: 3px 70px 3px 70px;
+  width: 100%;
+  text-align: center;
+}
+.nav-text h2 {
+  font-size: 1em;
+}
+.nav-text p {
+  font-size: 0.7em;
+}
+.button {
+  text-align: center;
+  margin-top: 3em;
+}
+
+.btn {
+  border: 0.7px solid white;
+  border-radius: 50px;
+  padding: 5px 5px 5px 5px;
+  font-size: 10px;
+}
+
+.btn:hover {
+  background: rgb(3, 61, 78);
+  border: 1px solid rgb(3, 61, 78);
+  transition: 0.3s ease;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -20px;
+}
+
+.section1 {
+  height: 180px;
+  width: 180px;
+  background-image: url(/img/blue1.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0px 10px 0px 10px;
+}
+.section2 {
+  height: 180px;
+  width: 180px;
+  background-image: url(/img/isometric-laptop-background-template_52683-7079.jpg);
+  background-size: cover;
+  margin: 0px 10px 0px 10px;
+}
+
+.section3 {
+  height: 180px;
+  width: 180px;
+  background-image: url(/img/blue3.jpg);
+  background-size: cover;
+  margin: 0px 10px 0px 10px;
+}
+.section1,
+.section2,
+.section3 {
+  box-shadow: 2px 2px 5px black;
+  cursor: pointer;
+}
+.text {
+  overflow: hidden;
+  height: 100%;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.text p {
+  font-size: 0.5em;
+}
+
+.text:hover {
+  opacity: 1;
+  background-color: lightblue;
+  color: rgb(3, 61, 78);
+}
